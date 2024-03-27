@@ -1,0 +1,134 @@
+#main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+#background-overlay {
+    background-image: url('images/Rust3.jpeg');
+}
+
+::-webkit-scrollbar {
+    width: 0.1em;
+    height: 0.1em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+#main-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Add a class for the fixed navbar */
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it's above other elements */
+    overflow: hidden;
+}
+
+#Shop-btn {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #13be00; /* Specify border style and color */
+    padding: 5px 8px;
+    color: #13be00;
+    transition: all 0.5s ease;
+}
+
+#Shop-btn:hover {
+    border-radius: 5px;
+    background-color: #13be00;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+#Server-img{
+    overflow: hidden;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+#Connect-btn {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #346aff; /* Specify border style and color */
+    padding: 5px 8px;
+    color: #346aff;
+    transition: all 0.5s ease;
+}
+
+#Connect-btn:hover {
+    border-radius: 5px;
+    background-color: #346aff;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+#Server-pop {
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    margin: 5px auto; /* Center the element horizontally */
+    background-color: #3269ff;
+    color: white;
+    line-height: 30px; /* Vertically center the text */
+}
+
+#Info-btn {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #fbff28; /* Specify border style and color */
+    padding: 5px 8px;
+    color: #fbff28;
+    transition: all 0.5s ease;
+}
+
+#Info-btn:hover {
+    border-radius: 5px;
+    background-color: #fbff28;
+    color: white;
+    transition: all 0.5s ease;
+}
+#main-info {
+    padding-bottom: 10rem; /* Adjust this value to reduce the gap */
+}
+
+#Serversection {
+    margin-top: -10rem; /* Adjust this value to compensate for the padding */
+}
+
+#DiscordButton, #TwitterButton, #YoutubeButton{
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#DiscordButton:hover, #TwitterButton:hover, #YoutubeButton:hover{
+    color: rgb(134, 247, 255);
+    transition: all 0.3s ease;
+}
+
+#main-info h1 {
+    color: white; /* Set the default color for the heading */
+}
+
+#main-info h1 span {
+    color: rgb(136, 201, 255); /* Set the color for the word "Harmony" */
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
